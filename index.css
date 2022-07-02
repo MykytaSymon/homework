@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+}
+
+body {
+    background-color: rgb(211, 208, 208);
+    
+}
+
+ol{ color:black}
+.odin { 
+    display: inline;
+    padding: 10px;
+    color:rgb(253, 253, 253);
+}
+.tablichka {
+    background-color: rgb(104, 104, 91);
+    width: 90%;
+    margin-left: 5%;
+    height: 30px;
+
+}
+.odin1 {
+    background-color: rgb(75, 75, 73);
+    display: inline;
+    padding: 0px;
+    height: 30px;
+    color:rgb(253, 253, 253);
+}
+.main {
+    background-color: rgb(253, 253, 253);
+    height: 953px;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+.span1 {
+    font-size: 50px;
+    font-family: serif;
+    margin-left: 5%;
+    height: 15px;
+}
