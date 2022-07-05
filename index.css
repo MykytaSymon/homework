@@ -7,63 +7,52 @@ body {
     margin: 0;
 }
 
-.top-list {
-    background-color:rgb(168, 168, 161);
+.header_menu {
+    background-color:gray;
     width: 100%;
-    height: 46px;
-    position: relative;
+    height: 34px;
+    align-items:center;
+    justify-content:space-between;
+    display:flex; 
 }
 
 .container {
     width: 80%;
     height: 100%;
-    background-color:rgb(249, 255, 255);
+    background-color: white;
     padding: 11px 50px 11px 50px;
     margin-left: 10%;
     margin-right: 10%;
-    border-left: 5px solid black;
-    border-right: 5px solid rgb(243, 8, 8);
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
 }
 
 p {
-    font-size: 50px;
-    
+    font-size: 50px;    
 }
 
-
-
-.exbutton {
+.item {
     display: inline;
-    color:rgb(253, 253, 253);
-    background-color:rgb(165, 165, 160);
+    color: white;
+    background-color:gray;
     border-collapse: collapse;
-    font-size: 40px;
+    font-size: 30px;
     margin-left:20px;
-    
-    
-    
+
 }
 
-.button {
+.item-selected {
     display: inline;
-    color:aliceblue;
-    background-color: rgb(146, 143, 143);
+    color: white;
+    background-color: rgb(100, 100, 100);
+    font-size:30px;
+    height: 46px;
 }
 
-.left-site-menu { 
+.main-menu { 
     margin-top: 40px;
     font-size: 30px;
     display: flex;
-    justify-content: space-between;
-    
-}
-
-.left-menu .lock {
-    padding-left: 40px;
-    color: black;
-    background-color:blanchedalmond;
-    
-    
 }
 
 li {
@@ -71,62 +60,70 @@ li {
     border-width: 3px black;
 }
 
-.left-menu {
+.navigation_left {
     float:left;
     
 }
 
-.left-menu li {
-    border: 3px solid black;
+.menu_item {
+    border: 1px solid black;
     color: gray;
     padding: 10px 20px;
-}
-.bike {
-    width: 700px;
-    height: 400px;
-    margin-top: 29px;
-    border: 2px solid black;
+    font-size: 20px;
+    width: 250px;
+
 }
 
-.den {
+.selected {
+    color: black;
+    background-color:white;
+    padding-left: 40px;
+    width: 230px;      
+}
+
+.bike {
+    width: 1037px;
+    height: 400px;
+    margin-top: 29px;
+    border: 1px solid gray;
+}
+
+.content {
     width: 700px;
     display: flex;
     flex-direction:column;
+    margin-left:200px;
 
 }
 
-.den p {
-font-size: 18px;
-
+.content_text {
+    font-size: 17px;
+    padding-left: 30px;
 }
 
-.bot-list {
+.footer {
     background-color:rgb(168, 168, 161);
     width: 100%;
     height: 46px;
     display:flex;
     align-items:center;
     justify-content:space-between;
+}
+
+.footer_menu {
+    display:flex;
+    margin-left:15px;
 
 }
 
-.bot-list ul {
-display:flex;
-margin-left:15px;
-
-}
-
-.bot-list li {
+.footer_menu_item {
     margin-right:100px;
-}
-.header {
-
 }
 
 .menu-selected {
-text-decoration:underline;
+    text-decoration:underline;
 }
 
-.bot-list span {
+.copyright {
     margin-right:15px;
 }
